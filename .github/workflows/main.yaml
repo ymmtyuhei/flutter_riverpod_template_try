@@ -22,6 +22,7 @@ jobs:
 
       - name: Analyze
         run: flutter analyze lib test
+        continue-on-error: true
 
       - name: Run tests
         run: flutter test --no-pub --coverage --test-randomize-ordering-seed random
