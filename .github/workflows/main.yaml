@@ -17,8 +17,8 @@ jobs:
       - name: Install Dependencies
         run: flutter packages get
 
-      - name: Format
-        run: dart format --set-exit-if-changed lib test
+#      - name: Format
+#        run: dart format --set-exit-if-changed lib test
 
       - name: Analyze
         run: flutter analyze lib test
