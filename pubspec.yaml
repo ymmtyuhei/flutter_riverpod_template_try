@@ -27,8 +27,8 @@ dependencies:
 
 
 dev_dependencies:
-  #flutter_test:
-    #sdk: flutter
+  flutter_test:
+    sdk: flutter
   json_serializable:
   go_router_builder: any
   build_runner: any
